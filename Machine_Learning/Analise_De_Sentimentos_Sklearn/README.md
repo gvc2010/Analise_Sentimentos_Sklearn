@@ -1,6 +1,6 @@
-Projeto realizado no Google Colab.
+Projeto realizado no Google Colab visando Análise de Sentimentos.
 
-1) Redução da granularidade dos sentimentos. Ao invés de 7 emoções, reduzido para as 3 clássicas (positivo, neutro, negativo)
+Redução da granularidade dos sentimentos. Ao invés de 7 emoções, reduzido para as 3 clássicas (positivo, neutro, negativo)
 
 A classe "positivo" será obtida utilizando-se as instâncias da base original rotuladas como "alegria".
 

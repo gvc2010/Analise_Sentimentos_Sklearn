@@ -1,12 +1,20 @@
-## Projeto realizado no Google Colab visando Análise de Sentimentos.
+Análise de Sentimentos com Redução de Granularidade
+Este projeto realiza uma análise de sentimentos em um corpus de textos, utilizando técnicas de processamento de linguagem natural (NLP) e algoritmos de aprendizado de máquina. O objetivo principal é reduzir a granularidade dos sentimentos de sete emoções para três classes clássicas (positivo, neutro, negativo) e comparar o desempenho de diferentes classificadores.
 
-Redução da granularidade dos sentimentos. Ao invés de 7 emoções, reduzido para as 3 clássicas (positivo, neutro, negativo)
+Redução da Granularidade dos Sentimentos
+A granularidade dos sentimentos foi reduzida da seguinte forma:
 
-A classe "positivo" será obtida utilizando-se as instâncias da base original rotuladas como "alegria".
-
-A classe "negativo" será obtida utilizando-se as instâncias rotuladas como "raiva", "medo", "desgosto" e "tristeza".
-
-Já a classe "neutro", utilizará as instâncias da base original rotuladas como "neutro".
-
-As instâncias rotuladas como "surpresa" não serão utilizadas.
-
+Positivo: Inclui as instâncias originalmente rotuladas como "alegria".
+Negativo: Inclui as instâncias originalmente rotuladas como "raiva", "medo", "desgosto" e "tristeza".
+Neutro: Inclui as instâncias originalmente rotuladas como "neutro".
+Surpresa: Instâncias rotuladas como "surpresa" não são utilizadas.
+Tecnologias Utilizadas
+Python
+Pandas
+NumPy
+NLTK
+Scikit-learn
+Estrutura do Projeto
+analise-sentimentos-2000-noticias.txt: Arquivo de texto contendo o corpus de análises de sentimentos.
+README.md: Descrição do projeto.
+main.py: Script principal que realiza o processamento dos dados e a análise de sentimentos.
